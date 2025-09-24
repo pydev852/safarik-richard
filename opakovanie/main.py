@@ -114,3 +114,6 @@
 # ----------------------- ULOHA KALKULCK -----------------------
 # Program sa opýta používateľa na dĺžku strany štvorca v centimetroch. 
 # Následne vypočíta a vypíše jeho obvod a obsah.
+
+
+print()
