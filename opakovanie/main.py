@@ -115,5 +115,6 @@
 # Program sa opýta používateľa na dĺžku strany štvorca v centimetroch. 
 # Následne vypočíta a vypíše jeho obvod a obsah.
 
-
-print()
+dlzka = input("Zadaj dlzku stvorca: ")
+print("Obvod stvorca: " + str((int(dlzka) * 4)))
+print("Obsah strorca: " + str((int(dlzka) * int(dlzka))))
