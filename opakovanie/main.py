@@ -47,7 +47,70 @@
 
 # # print(a,b)
 
-# to je super program !!!
+# # b = "bryndzove halusky"
+# # a = "vyprazany syr"
 
-# Ahoj
-# Ahoj 
+# a, b = b, a
+# print(a,b)
+
+# "Poznanie sa nezakladá len na pravde, ale aj na omyle." Carl Gustav Jung
+
+# print('"Poznanie sa nezakladá len na pravde, \nale aj na omyle." Carl Gustav Jung')
+
+# Čo raz z úst vypustíš, 
+# ani štyrmi koňmi nazad nevtiahneš. 
+
+# print("Čo raz z úst vypustíš, \nani štyrmi koňmi nazad nevtiahneš. ")
+
+# -------------------------------------------------------------
+# Napíšte tri print() príkazy. 
+# Prvý vytlačí "Učím sa", druhý "programovať v" a tretí "Pythone.". 
+
+# print("Ucim sa", end=" ")
+# print("programovat v", end=" ")
+# print("Pythone.")
+
+
+# print("Ucim sa","programovat v","Pythone.", sep="\n")
+
+# G:\My Drive\SHARE\_PYTHON\LEKCIE
+
+# -------------------------------------------------------------
+
+# Máte časti cesty k súboru: C:, Users, Jano, Dokumenty, projekt.py. 
+# Vytlačte ich ako jednu cestu, pričom ako oddeľovač použijete lomku /.
+
+# print("C:","Users","Jano","Documenty","projekt.py", sep="/")
+
+# -------------------------------------------------------------
+# Cieľ: Kreatívne skombinovať parametre end a sep.
+# Zadanie: Vytlačte čísla od 1 do 5. 
+# Medzi každým číslom má byť bodka a medzera. 
+# Na konci celého výpisu majú byť tri bodky.
+# 1. 2. 3. 4. 5...
+# print(1,2,3,4,5, sep=". ", end="... ")
+
+
+
+# -------------------------------------------------------------
+# Použite násobenie reťazcov na vytvorenie dynamického rámčeka.
+# Vytvorte premennú hlaska = "Dôležitá správa". 
+# Vytlačte túto správu do konzoly tak, aby bola orámovaná hviezdičkami. 
+# Rámček by sa mal prispôsobiť dĺžke textu.
+
+# Očakávaný výstup:
+
+# ************************
+# * Moja Dôležitá správa *
+# ************************
+
+# hlaska = "Moja Dôležitá správa"
+
+# print("*" * (len(hlaska) + 4 ))
+# print("* " + hlaska + " *")
+# print("*" * (len(hlaska) + 4 ))
+
+
+# ----------------------- ULOHA KALKULCK -----------------------
+# Program sa opýta používateľa na dĺžku strany štvorca v centimetroch. 
+# Následne vypočíta a vypíše jeho obvod a obsah.
